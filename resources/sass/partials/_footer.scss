@@ -1,0 +1,113 @@
+.footerTop {
+    background-color: $brand-color;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    nav {
+
+
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                padding: 0 10px;
+                font-weight: 600;
+                line-height: 115px;
+
+                img {
+                    height: 50px;
+                    margin-right: 10px;
+                    vertical-align: middle;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+.footerBtm {
+    height: 480px;
+    background-image: url('/images/footer-bg.jpg');
+    padding: 2rem;
+    
+    .container {
+        display: flex;
+
+        .footer-links {
+            margin: 0 1rem;
+            h4 {
+                color: #fff;
+                margin-bottom: 1rem;
+            }
+            ul {
+                list-style: none;
+                li {
+                    margin-bottom: 0.5rem;
+    
+                    a {
+                    text-decoration: none;
+                    color: gray;
+                    
+                    }
+                }
+                
+            }
+        }
+
+        img {
+            height: 440px;
+        }
+    }
+}
+
+.pageEnding {
+    height: 105px;
+    width: 100%;
+    background-color: $footer-color;
+    line-height: 105px;
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+            background-color: rgba($color: #fff, $alpha: 0);
+            color: #fff;
+            border: 2px $brand-color solid;
+            padding: 1rem;
+        }
+
+        .social-icons {
+            display: flex;
+
+            h4 {
+                vertical-align: middle;
+                color: $brand-color;
+                margin-right: 1rem;
+            }
+
+            ul {
+                display: flex;
+                list-style: none;
+
+                    img {
+                        vertical-align: middle;
+                        padding: 0 0.5rem;
+                    }
+            }
+        }
+    }
+
+    
+}
