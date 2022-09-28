@@ -7,7 +7,7 @@
             <ul class="HeaderMenu">
                 @foreach ($key['linksHeader'] as $link)
                     <li>
-                        <a href="{{$link['url']}}" class="link.active?'active':''">{{$link['text']}}</a>
+                        <a href="{{$link['url']}}" class="{{Request::route()->getName() == $link['text']?'active':''}}">{{$link['text']}}</a>
                     </li>
                 @endforeach    
             </ul>

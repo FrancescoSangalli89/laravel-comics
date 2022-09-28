@@ -3,11 +3,11 @@
 return [
         [
             "text" => 'CHARACTERS',
-            "url" => "{{route('characters')}}",
+            "url" => "/characters",
         ],
         [
             "text" => 'COMICS',
-            "url" => "{{route('comics')}}",
+            "url" => "/",
         ],
         [
             "text" => 'MOVIES',
