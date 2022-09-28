@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $linksHeader = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FAN', 'NEW', 'SHOP'];
+        $linksHeader = config('linksHeader');
         $linksFooter = config('linksTopFooter');
         $dcComicsLinks = ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'news'];
         $shopLinks = ['Shop DC', 'Shop DC Collectibles'];

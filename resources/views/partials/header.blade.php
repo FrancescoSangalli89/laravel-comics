@@ -7,7 +7,7 @@
             <ul class="HeaderMenu">
                 @foreach ($key['linksHeader'] as $link)
                     <li>
-                        <a href="#" class="link.active?'active':''">{{$link}}</a>
+                        <a href="{{$link['url']}}" class="link.active?'active':''">{{$link['text']}}</a>
                     </li>
                 @endforeach    
             </ul>
