@@ -2,7 +2,7 @@
     <div class="footerTop">
         <nav>
             <ul class="middleMenu">
-                @foreach ($linksFooter as $link)
+                @foreach ($key['linksFooter'] as $link)
                 <li>
                     <img src="{{$link['icon']}}" />
                     <a href="#">{{$link['text']}}</a>
@@ -15,7 +15,7 @@
         <div class="container">
             <div class="footer-links">
                 <h4>DC COMICS</h4>
-                @foreach ($dcComicsLinks as $dcComicsLink)
+                @foreach ($key['dcComicsLinks'] as $dcComicsLink)
                 <ul>
                     <li>
                         <a href="#">{{$dcComicsLink}}</a>
@@ -25,7 +25,7 @@
             </div> 
             <div class="footer-links">
                 <h4>SHOP</h4>
-                @foreach ($shopLinks as $shopLink)
+                @foreach ($key['shopLinks'] as $shopLink)
                 <ul>
                     <li>
                         <a href="#">{{$shopLink}}</a>
@@ -35,7 +35,7 @@
             </div>
             <div class="footer-links">    
                 <h4>DC</h4>
-                @foreach ($dcLinks as $dcLink)
+                @foreach ($key['dcLinks'] as $dcLink)
                 <ul>
                     <li>
                         <a href="#">{{$dcLink}}</a>
@@ -45,7 +45,7 @@
             </div>
             <div class="footer-links">
                 <h4>SITES</h4>
-                @foreach ($siteLinks as $siteLink)
+                @foreach ($key['siteLinks'] as $siteLink)
                 <ul>
                     <li>
                         <a href="#">{{$siteLink}}</a>
@@ -66,7 +66,7 @@
             <div class="social-icons">
                 <h4>FOLLOW US</h4>
                 <ul>
-                    @foreach ($icons as $icon)
+                    @foreach ($key['icons'] as $icon)
                     <li>
                         <img src="{{$icon}}" />
                     </li>

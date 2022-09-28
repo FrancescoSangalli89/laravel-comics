@@ -5,7 +5,7 @@
         </div>
         <nav>
             <ul class="HeaderMenu">
-                @foreach ($linksHeader as $link)
+                @foreach ($key['linksHeader'] as $link)
                     <li>
                         <a href="#" class="link.active?'active':''">{{$link}}</a>
                     </li>
