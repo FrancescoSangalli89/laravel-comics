@@ -53,10 +53,6 @@
                 </ul>
                 @endforeach
             </div>
-            <!-- <FooterMenu :title="'DC COMICS'" :urls="dcComicsLinks" />
-            <FooterMenu :title="'SHOP'" :urls="shopLinks" />
-            <FooterMenu :title="'DC'" :urls="dcLinks" />
-            <FooterMenu :title="'SITES'" :urls="siteLinks" /> -->
             <img src="{{asset('images/dc-logo-bg.png')}}" alt="dc footer logo" />
         </div>
     </div>
