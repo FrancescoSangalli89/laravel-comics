@@ -3,11 +3,11 @@
 return [
         [
             "text" => 'CHARACTERS',
-            "url" => "/characters",
+            "url" => "characters",
         ],
         [
             "text" => 'COMICS',
-            "url" => "/",
+            "url" => 'comics',
         ],
         [
             "text" => 'MOVIES',
